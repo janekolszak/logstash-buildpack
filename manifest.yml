@@ -25,55 +25,55 @@ dependencies:
   uri: https://swisscom-buildpacks.scapp.io/dependencies/elk/logstash-6.1.3.tar.gz
   sha256: 5a5a03684fd9b3582c3982c208f14b37d8f4ca061911e2cccc51332bca80fd70
   cf_stacks:
-  - cflinuxfs2
+  - cflinuxfs3
 - name: logstash-plugins
   version: 6.0.0
   uri: https://swisscom-buildpacks.scapp.io/dependencies/elk/logstash-plugins-6.0.0.tar.gz
   sha256: fe331430fc6160e6646bc202bda3c4c9bc951c95f3fc5723f7c12aa381ef392b
   cf_stacks:
-  - cflinuxfs2
+  - cflinuxfs3
 - name: x-pack
   version: 6.1.3
   uri: https://swisscom-buildpacks.scapp.io/dependencies/elk/x-pack-6.1.3.tar.gz
   sha256: 6cae1a42f834210f9be7a9003a342d262325b941984b7cf199b51155659a2a55
   cf_stacks:
-  - cflinuxfs2
+  - cflinuxfs3
 - name: openjdk
   version: 1.8.0
   uri: https://swisscom-buildpacks.scapp.io/dependencies/elk/openjdk-1.8.0_91.tar.gz
   sha256: 98190b550ebcaf021895b45d24955e730e77de2b1aa9b6139aa6fca46d6b0e9a
   cf_stacks:
-  - cflinuxfs2
+  - cflinuxfs3
 - name: curator
   version: 5.4.1
   uri: https://swisscom-buildpacks.scapp.io/dependencies/elk/curator-5.4.1.tar.gz
   sha256: 0fc3ec3921fa15b4acc8d7aee00a1022144e95bc567ed7c04564b7eadc37356d
   cf_stacks:
-  - cflinuxfs2
+  - cflinuxfs3
 - name: python3
   version: 3.6.5
   uri: https://swisscom-buildpacks.scapp.io/dependencies/python/python-3.6.5.tar.gz
   sha256: 0974090807dd66e19d862dabd78aff496563dd862630674a95c9f9c98e447729
   cf_stacks:
-  - cflinuxfs2
+  - cflinuxfs3
 - name: gte
   version: 1.0.1
   uri: https://swisscom-buildpacks.scapp.io/dependencies/elk/gte-1.0.1.tar.gz
   sha256: 16fc4d0f657e8fda6085376cff8cab1b4808fc4338b4e195163f70c0a8b8ab58
   cf_stacks:
-  - cflinuxfs2
+  - cflinuxfs3
 - name: jq
   version: 1.5
   uri: https://swisscom-buildpacks.scapp.io/dependencies/elk/jq-1.5.tar.gz
   sha256: 49a84557c7e7541d49e2dda5e2738eea61199edaecf8139f99a78dae0dd3f7a6
   cf_stacks:
-  - cflinuxfs2
+  - cflinuxfs3
 - name: ofelia
   version: 0.2.2
   uri: https://swisscom-buildpacks.scapp.io/dependencies/elk/ofelia_0.2.2.tar.gz
   sha256: 1920a91ce5cd7ad9a11ec40693baa09ec26ff0f27f8827edaa7606cf667e3270
   cf_stacks:
-  - cflinuxfs2
+  - cflinuxfs3
 include_files:
 - CHANGELOG
 - LICENSE
